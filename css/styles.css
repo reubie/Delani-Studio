@@ -100,8 +100,18 @@ button{
     min-height: 100vh;
 }
 .home-section .home-content{
-    background-color: red;
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
+}
+.home-section .home-content h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+.home-section .home-content h1{
+    font-size: 60px;
+    margin: 0;
+    color: #ffffff;
+    text-transform: uppercase;
 }
