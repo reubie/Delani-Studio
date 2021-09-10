@@ -39,6 +39,13 @@ button{
     /* background-color: crimson; */
     padding: 0 15px;
 }
+.header .brand-name a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
 .header .nav{
     /* background-color: rgb(68, 68, 70); */
     padding: 0 15px;
