@@ -6,3 +6,9 @@ body{
     box-sizing: border-box;
     margin: 0;
 }
+.home-section{
+    min-height: 100vh;
+    background-image: url('../images/h_img.jpg');
+    background-size: cover;
+    background-position: center;
+}
