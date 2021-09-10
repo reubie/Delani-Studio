@@ -28,6 +28,14 @@ button{
 .justify-content-between{
     justify-content: space-between;
 }
+@keyframes ani01{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 .header{
     position: absolute;
     left: 0;
@@ -96,6 +104,15 @@ button{
     opacity: 0.7;
     z-index: -1;
 }
+.home-section .shape-01{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #FF9800;
+    right: 5%;
+    top: 20%;
+    animation: ani01 5s linear infinite;
+}
 .home-section .row{
     min-height: 100vh;
 }
@@ -105,13 +122,21 @@ button{
     text-align: center;
 }
 .home-section .home-content h4{
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff;
     margin: 0;
+}
+.home-section .home-content h2{
+    font-size: 60px;
+    color: #ffffff;
+    margin: 0;
+    font-weight: 600;
 }
 .home-section .home-content h1{
     font-size: 60px;
     margin: 0;
     color: #ffffff;
     text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 10PX;
 }
