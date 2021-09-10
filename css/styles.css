@@ -18,6 +18,9 @@ button{
     max-width: 1170px;
     margin: auto;
 }
+.align-items-center{
+    align-items: center;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -25,11 +28,19 @@ button{
 .justify-content-between{
     justify-content: space-between;
 }
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 .header .brand-name{
-    background-color: crimson;
+    /* background-color: crimson; */
+    padding: 0 15px;
 }
 .header .nav{
-    background-color: rgb(68, 68, 70);
+    /* background-color: rgb(68, 68, 70); */
+    padding: 0 15px;
 }
 .header .nav ul{
     list-style: none;
