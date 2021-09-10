@@ -8,10 +8,19 @@ input,
 textarea,
 button{
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 *{
     box-sizing: border-box;
     margin: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
 .home-section{
     min-height: 100vh;
