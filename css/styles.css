@@ -22,6 +22,15 @@ button{
     display: flex;
     flex-wrap: wrap;
 }
+.justify-content-between{
+    justify-content: space-between;
+}
+.header .brand-name{
+    background-color: crimson;
+}
+.header .nav{
+    background-color: darkblue;
+}
 .home-section{
     min-height: 100vh;
     background-image: url('../images/h_img.jpg');
