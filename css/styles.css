@@ -29,7 +29,24 @@ button{
     background-color: crimson;
 }
 .header .nav{
-    background-color: darkblue;
+    background-color: rgb(68, 68, 70);
+}
+.header .nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header .nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 25px 0;
+    display: block;
 }
 .home-section{
     min-height: 100vh;
