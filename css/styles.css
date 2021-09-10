@@ -96,3 +96,12 @@ button{
     opacity: 0.7;
     z-index: -1;
 }
+.home-section .row{
+    min-height: 100vh;
+}
+.home-section .home-content{
+    background-color: red;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+}
