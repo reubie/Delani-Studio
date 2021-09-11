@@ -42,6 +42,7 @@ button{
     max-width: 100%;
     margin-bottom: 60px;
     padding: 0 15px;
+    text-align: center;
 }
 .section-title h1{
     display: inline-block;
@@ -234,6 +235,145 @@ button{
     .about-section .about-content .btn{
         margin-top: 30px;
     }
+
     .service-section{
-        padding: 80px 0 80px;
+        padding:80px 0 0;
+        width: 100%;
     }
+    
+    .service-section .service-item{
+        flex:0 0 100%;
+        max-width: 100%;
+        padding:15px;
+    }
+    .service-section .service-item-inner{
+     position: relative;
+     overflow:hidden;
+     
+    }
+    .service-section .service-item-inner img{
+        width: 100%;
+        display: block;
+        filter: grayscale(100%);
+        transition: all 0.5s ease;
+    }
+    .service-section .service-item-inner:hover img{
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+    .service-section .service-item-inner .overlay{
+        position: absolute;
+        left:0;
+        top:0;
+        height: 100%;
+        width: 100%;
+        background-color:rgba(0,0,0,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+    }
+    .service-section .service-item-inner:hover .overlay{
+        background-color: transparent;
+    }
+    
+    .service-section .service-item-inner .overlay h4{
+        color:#ffffff;
+        font-size: 20px;
+        margin:0;
+        text-align: center;
+        transition: all 0.5s ease;
+        text-transform: capitalize;
+    }
+    .service-section .service-item-inner .overlay h5{
+        color:#ffffff;
+        font-size: 20px;
+        margin:0;
+        text-align: center;
+        transition: all 0.5s ease;
+        text-transform: capitalize;
+    }
+    
+    .service-section .service-item-inner .overlay:hover h4{
+      transform: translateX(30px);
+      opacity:0;
+    }
+    .service-section .service-item-inner .overlay:hover h{
+        transform: translateX(30px);
+        opacity:0;
+      }
+    .service-section .overlay{
+        flex: 0 0 66.66%;
+        max-width: 100%;
+        padding: 0 15px;
+        text-align: center;
+        
+        letter-spacing: 2PX;
+    }
+
+    .service-details{
+        display: flex;
+        padding:80px 0 80px;
+        width: 100%;
+    }
+    .service-details .service-item-details{
+        justify-content: space-around;
+        flex:0 0 33.33%;
+        max-width: 33.33%;
+        padding:0 15px;
+    }
+    .service-details .service-item-inner-details{
+        position: relative;
+        overflow:hidden; 
+        justify-content: space-between;       
+    }
+    .service-details .service-item-inner-details img{
+        justify-content: space-between;
+        position: relative;
+        width: auto;
+        min-height: fit-content;
+        display: block;
+        flex-wrap: wrap;
+        transition: all 0.5s ease;
+    }
+    .service-details .service-item-inner-details:hover img{
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+    .service-details .service-item-inner-details .overlay{
+        position: relative;
+        /* left:0;
+        top:0;
+        height: 100%;
+        width: 100%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease;
+    }
+    .service-details .service-item-inner-details .overlay{
+        background-color: transparent;
+    }
+    
+    .service-details .service-item-inner-details .overlay h4{
+        color:black;
+        font-size: 16px;
+        margin:0;
+        text-align: center;
+        transition: all 0.5s ease;
+        text-transform: capitalize;
+    }
+
+    .service-details .service-item-inner-details .overlay:hover h4{
+        transform: translateX(30px);
+        opacity:4;
+      }
+      .service-details .overlay{
+          flex: 0 0 66.66%;
+          max-width: 100%;
+          padding: 0 15px;
+          text-align: center;
+          letter-spacing: 1PX;
+      }
+
+    
