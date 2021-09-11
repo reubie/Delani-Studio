@@ -342,10 +342,10 @@ button{
     }
     .service-details .service-item-inner-details .overlay{
         position: relative;
-        /* left:0;
+        left:0;
         top:0;
         height: 100%;
-        width: 100%; */
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
