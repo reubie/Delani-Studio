@@ -563,7 +563,7 @@ background-color: rgba(0,0,0,0.5);
 	margin-top: -150px;
 }
 .contact-section .contact-form .form label{
-	color:#000000;
+	color:#ffffff;
 	font-weight: 500;
 	display: block;
 	margin: 0 0 5px;
@@ -621,7 +621,7 @@ background-color: rgba(0,0,0,0.5);
 .contact-section .contact-info .info-item p{
 	font-size: 16px;
 	margin:0;
-	color:#555555;
+	color:#fffff;
 }
 
 .contact-section .social-links{
