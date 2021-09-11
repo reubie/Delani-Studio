@@ -194,7 +194,7 @@ button{
     max-width: 100%;
     padding: 0 15px;
     text-align: center;
-    font-weight: 300;
+    
     letter-spacing: 2PX;
 }
 .about-section .section-title{
@@ -205,4 +205,30 @@ button{
     color: #555555;
     line-height: 26px;
     margin: 0;
+    font-weight: 300;
 }
+.btn-01{
+    background-color: #FF9800;
+    color: #ffffff;
+    border: 2px solid transparent;
+    padding: 10px 35px;
+    border-radius: 30px;
+    line-height: 1.5;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.5s ease; 
+    }
+    .btn-01:hover{
+        background-color: transparent;
+        border-color: #FF9800;
+        color: #FF9800;
+    }
+    .btn-01:focus{
+        outline: none;
+    }
+    .about-section .about-content .btn{
+        margin-top: 30px;
+    }
