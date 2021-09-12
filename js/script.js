@@ -81,7 +81,6 @@ $(window).on("load",function(){
   });
 
 //   slideshow function
-
 function lightboxSlideShow(){
     const imgSrc = $(".work-item").eq(index).find("img").attr("data-large");
     const category = $(".work-item").eq(index).find("h4").html();
