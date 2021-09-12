@@ -328,7 +328,8 @@ button{
     }
     .service-details .service-item-details img{
         width: 35%;
-        display: block;
+        display: flex;
+        justify-content: center;
         transform: scale(1.1);
         transition: all 0.5s ease;
     }
@@ -367,6 +368,17 @@ button{
     }
     .service-details .service-item-details .overlay h4{
         transform: translateX(0);
+    }
+    .service-details .service-item-details h1{
+        font-size: 14px;
+        margin: 0;
+        margin-top: 2rem;
+        justify-content: center;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 500;
+        align-items: center;
+        letter-spacing: 10PX;
     }
 
       .work-section{
