@@ -252,7 +252,7 @@ button{
      
     }
     .service-section .service-item-inner img{
-        width: 100%;
+        width: auto;
         display: block;
         filter: grayscale(100%);
         transition: all 0.5s ease;
@@ -307,74 +307,61 @@ button{
         max-width: 100%;
         padding: 0 15px;
         text-align: center;
-        
         letter-spacing: 2PX;
     }
 
     .service-details{
-        display: flex;
-        padding:80px 0 80px;
-        width: 100%;
+        padding:80px 0 0;
+        margin-left: 10rem;
     }
+    
     .service-details .service-item-details{
-        justify-content: space-around;
         flex:0 0 33.33%;
         max-width: 33.33%;
-        padding:0 15px;
+        padding:15px;
     }
-    .service-details .service-item-inner-details{
-        position: relative;
-        overflow:hidden; 
-        justify-content: space-between;       
-    }
-    .service-details .service-item-inner-details img{
-        justify-content: space-between;
-        position: relative;
-        width: auto;
-        min-height: fit-content;
+    .service-details .service-item-details img{
+        width: 35%;
         display: block;
-        flex-wrap: wrap;
+        transform: scale(1.1);
         transition: all 0.5s ease;
     }
-    .service-details .service-item-inner-details:hover img{
-        filter: grayscale(0);
-        transform: scale(1.1);
+    .service-details .service-item-details:hover img{
+        filter: grayscale(100%);
+        transform: scale(1);
     }
-    .service-details .service-item-inner-details .overlay{
+    .service-details .service-item-details{
         position: relative;
+        cursor: pointer;
+        overflow:hidden;
+    }
+    
+    .service-details .service-item-details .overlay{
+        position: absolute;
         left:0;
         top:0;
         height: 100%;
         width: 100%;
+        padding:15px;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-end;
         transition: all 0.5s ease;
+        background-color: rgba(0,0,0,0.6);
+        opacity:0;
     }
-    .service-details .service-item-inner-details .overlay{
-        background-color: transparent;
+    .service-details .service-item-details:hover .overlay{
+        opacity:1;
     }
-    
-    .service-details .service-item-inner-details .overlay h4{
-        color:black;
-        font-size: 16px;
+    .service-details .service-item-details .overlay h4{
+        color:#ffffff;
+        font-size: 14px;
         margin:0;
-        text-align: center;
-        transition: all 0.5s ease;
-        text-transform: capitalize;
-    }
-
-    .service-details .service-item-inner-details .overlay:hover h4{
         transform: translateX(30px);
-        opacity:4;
-      }
-      .service-details .overlay{
-          flex: 0 0 66.66%;
-          max-width: 100%;
-          padding: 0 15px;
-          text-align: center;
-          letter-spacing: 1PX;
-      }
+        transition: all 0.5s ease;
+    }
+    .service-details .service-item-details .overlay h4{
+        transform: translateX(0);
+    }
 
       .work-section{
         padding:80px 0 0;
@@ -621,7 +608,7 @@ background-color: rgba(0,0,0,0.5);
 .contact-section .contact-info .info-item p{
 	font-size: 16px;
 	margin:0;
-	color:#fffff;
+	color:black;
 }
 
 .contact-section .social-links{
