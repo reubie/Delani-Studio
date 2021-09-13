@@ -115,11 +115,11 @@ function lightboxSlideShow(){
     $(".lightbox-counter").html(totalWorkItems + "/" + (index+1));
   }
 
-  // button message
-  $('.submit').click(function () {
-    var Name = $('#mce-FNAME').val();
-    var Email = $('#mce-EMAIL').val();
-    var Message = $('#mce-MESSAGE');
+//   button message
+  $('.form-btn').click(function () {
+    var Name = $('#mce-FNAMEname').val();
+    var Email = $('#mce-EMAIL email').val();
+    var Message = $('#mce-MESSAGE comment');
     var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
     if (Name == '' || Email == '' || Message == '') {
         alert('Please make sure you have filled in the form correctly!');

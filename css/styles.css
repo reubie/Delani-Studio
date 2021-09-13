@@ -70,7 +70,6 @@ button{
     z-index: 99;
 }
 .header .brand-name{
-    /* background-color: crimson; */
     padding: 0 15px;
 }
 .header .brand-name a{
@@ -647,6 +646,24 @@ background-color: rgba(0,0,0,0.5);
 }
 .contact-section .social-links a:hover img{
 	opacity:0.5;
+}
+.Contact-Us {
+  background-image: url("../images/c_image.jpg");
+  background-size:cover;
+  display: cover;
+  padding: 10%;
+}
+form #contact{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input[type=text] {
+  background:transparent;
+  color: white;
+}
+textarea[type=text] {
+  background:transparent;
+  color: white;
 }
 /* copyright */
 .copyright{
