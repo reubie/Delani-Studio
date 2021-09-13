@@ -67,14 +67,6 @@ $(window).on("load",function(){
       $(".hide-product-management").toggle();
     })
   
-    //Insert white box  hover
-    $(".Hover").hover(function(){
-      $(this).animate({opacity:'1'});
-    },
-    function(){
-      $(this).animate({opacity:'0'});
-    })
-    
     // add dimensions to imageviewer
     const wHeight = $(window).height();
   	$(".lightbox-img").css("max-height",wHeight+"px");
