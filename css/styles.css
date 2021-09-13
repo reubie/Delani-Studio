@@ -287,11 +287,11 @@ button{
         color:#ffffff;
         font-size: 20px;
         margin:0;
-        text-align: center;
+        text-align: top;
         transition: all 0.5s ease;
         text-transform: capitalize;
     }
-    .service-section .service-item-inner .overlay h5{
+    .service-section .service-item-inner .overlay p{
         color:#ffffff;
         font-size: 20px;
         margin:0;

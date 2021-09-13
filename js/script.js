@@ -72,7 +72,7 @@ $(window).on("load",function(){
   		$(".lightbox").removeClass("open");
   	});
 
-  	// close lightbox when clicked outside of img-box 
+  	// close imeage viewer when clicked outside of img-box 
      $(".lightbox").click(function(event){
        if($(event.target).hasClass("lightbox")){
        	 $(this).removeClass("open");
@@ -88,4 +88,18 @@ function lightboxSlideShow(){
     $(".lightbox-category").html(category)
     $(".lightbox-counter").html(totalWorkItems + "/" + (index+1));
   }
+
+  // button message
+  $('.submit').click(function () {
+    var Name = $('#mce-FNAME').val();
+    var Email = $('#mce-EMAIL').val();
+    var Message = $('#mce-MESSAGE');
+    var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
+    if (Name == '' || Email == '' || Message == '') {
+        alert('Please make sure you have filled in the form correctly!');
+    } else {
+        alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+    }
+});
+
 
