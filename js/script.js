@@ -17,6 +17,15 @@ $(window).on("load",function(){
            $(".header .nav").slideToggle();
         }
       })
+
+      // hover query for portfolio
+
+      $(".Hover").hover(function(){
+        $(this).animate({opacity:'1'});
+      },
+      function(){
+        $(this).animate({opacity:'0'});
+      })
       
     //   fixed header
     $(window).scroll(function(){
@@ -40,6 +49,31 @@ $(window).on("load",function(){
             });
         }
     });
+
+    // jquery for on click toogle
+
+    $("#design").click(function(){
+      $("#design-showing").toggle();
+      $(".hide-design-image").toggle();
+    })
+  
+    $("#development").click(function(){
+      $("#development-showing").toggle();
+      $(".hide-development-image").toggle();
+    })
+  
+    $("#productManagement").click(function(){
+      $("#product-management-showing").toggle();
+      $(".hide-product-management").toggle();
+    })
+  
+    //Insert white box  hover
+    $(".Hover").hover(function(){
+      $(this).animate({opacity:'1'});
+    },
+    function(){
+      $(this).animate({opacity:'0'});
+    })
     
     // add dimensions to imageviewer
     const wHeight = $(window).height();
