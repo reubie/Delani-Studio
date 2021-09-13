@@ -302,7 +302,7 @@ button{
     
     .service-section .service-item-inner .overlay:hover h4{
       transform: translateX(30px);
-      opacity:0;
+      opacity:1;
     }
     .service-section .service-item-inner .overlay:hover h{
         transform: translateX(30px);
